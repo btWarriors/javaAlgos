@@ -33,6 +33,7 @@ public class EMAFilter {
      * @return Array of processed (smoothed) samples
      */
     public double[] apply(double[] audioSignal) {
+        // null check
         if (audioSignal.length == 0) {
             return new double[0];
         }
