@@ -35,6 +35,7 @@ public class BinaryAddition {
      */
     public char carry(char a, char b, char carry) {
         int count = 0;
+        int sum = 0;
         if (a == '1') {
             count++;
         }
